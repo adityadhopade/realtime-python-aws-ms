@@ -64,3 +64,43 @@ Folder named `mylib`
 
 - They are used previsuvly in Software Development Files
 
+## Step 4: Populate Requirements.txt
+
+- We will be adding the software packages inside it
+
+```
+wikipedia
+pytest (Testing)
+pytest-cov (Code Coverage)
+pylint (Linting Tool)
+black (Formatting Tool)
+fire (TO write Chameleon Tool in Python)
+```
+
+## STEP 5 : Add into the makeFile
+
+```
+install:
+    #install commands
+    pip install --upgrade pip &&\
+    pip install -r requirements.txt
+```
+- As we want to make use of the same code later also we can add the versions to make our application working
+
+- make use of the command
+```
+pip freeze | less
+```
+
+- Add the version numbers obsered here for the particular dependencies in library
+
+- requirements.txt will look like
+```
+wikipedia==1.4.0
+pytest==7.1.1
+pytest-cov==3.0.0
+pylint==2.13.5
+black==22.3.0
+fire==0.4.0
+```
+Run make install => ``` make install ```
