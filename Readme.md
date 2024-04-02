@@ -1,3 +1,6 @@
+[![Python App test with Actions](https://github.com/adityadhopade/realtime-python-aws-ms/actions/workflows/devops.yaml/badge.svg)](https://github.com/adityadhopade/realtime-python-aws-ms/actions/workflows/devops.yaml)
+
+
 ## Add Work in the Codespaces
 
 ## Building out A Scaffold 
